@@ -1,0 +1,238 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+nav ul {
+    background-color: rgb(5, 90, 78);
+    width: 100%;
+    list-style-type: none;
+}
+nav li {
+    display: inline-flex;
+}
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    width: 150px;
+    font: 2em open-sans;
+}
+nav li:hover {
+    background-color: rgb(5, 77, 67);
+}
+body{
+    background-color: rgb(161, 219, 196);
+}
+.container{
+    display: flex;
+    margin: 20px;
+    align-items: center;
+}
+.seccions{
+    display: flex;
+    align-items: center;
+    padding: 30px;
+}
+.text-container {
+    margin-left: 150px;
+}
+.titulo{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 380%;
+    color: rgb(52, 73, 30);
+}
+.cuerpo{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: right;
+    padding-right: 20px;
+    padding-left: 30px;
+    font-size: 120%;
+}
+#b_a{
+    background-color: white;
+    width: 650px;
+    height: 450px;
+    padding: 10px;
+    border-radius: 10px;
+}
+#i_d{
+    padding-bottom: 30px;
+    text-align: right;
+    padding-right: 20px;
+}
+#t_i{
+    padding-top: 50px;
+    text-align: center;
+    color: black;
+}
+.tituloac{
+    text-align: left;
+    color: rgb(52, 73, 30);
+    font-size: 270%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-bottom: 20px;
+}
+.cuerpoac{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left;
+    text-align: justify;
+    padding-right: 20px;
+    font-size: 110%;
+    padding-bottom: 90px;
+}
+#cuerac{
+    padding-right: 60px;
+}
+#a_i{
+    margin-left: 50px;
+}
+#s_ndex{
+    background-color: rgb(73, 94, 55);
+    text-decoration: none;
+    color: white;
+    width: 30px;
+    height: 40px;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 130px;
+}
+#i_p{
+    padding-bottom: 50px;
+}
+#a_s{
+    color: white;
+    padding: 10px;
+    padding-left: 80px;
+    font-size: 120%;
+}
+.s_nac{
+    background-color: rgb(77, 128, 99);
+    text-decoration: none;
+    color: white;
+    font-size: 85%;
+    width: 50px;
+    height: 55px;
+    padding: 15px;
+    border-radius: 70px;
+}
+#i_dco{
+    padding-bottom: 40px;
+    text-align: left;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+#i_dcos{
+    padding-bottom: 15px;
+    text-align: left;
+    padding-right: 30px;
+    padding-left: 30px;
+    font-style: italic;
+}
+#co_id{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-left: 30px;
+    padding-right: 50px;
+    padding-bottom: 40px;
+    text-align: justify;
+}
+#cos_id{
+    padding-bottom: 10px;
+    text-align: left;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+.formregister{
+    width: 570px;
+    padding: 30px;
+    margin: auto;
+    margin-top: 40px;
+    border-radius: 4px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+}
+.controls{
+    width: 100%;
+    background-color: rgb(57, 128, 99);
+    padding: 10px;
+    border: 1px solid rgb(57, 128, 99);
+    margin-bottom: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+}
+#t_a{
+    padding-left: 80px;
+}
+#na_me{
+    color: white;
+}
+#mes_sage{
+    height: 100px;
+    padding-bottom: 30px;
+    color: white;
+}
+#e_mail{
+    color: white;
+}
+#sub_ject{
+    color: white;
+}
+#b_o{
+    color: white;
+    background-color: rgb(57, 128, 99);
+    text-decoration: none;
+    font-size: 85%;
+    width: 80px;
+    height: 25px;
+    padding: 7px;
+    border-radius: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.formregister input::placeholder{
+    color: white;
+}
+.tiend{
+    background-color: white;
+    width: 220px;
+    height: 320px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 40px;
+    padding-top: 20px;
+    padding-bottom: 110px;
+}
+#po{
+    color: rgb(161, 219, 196);
+}
+#pa{
+    margin-left: 50px;
+}
+#pe{
+    margin-top: 70px;
+}
+#pi{
+    padding-right: 58px;
+}
+.tip{
+    background-color: rgb(209, 200, 193);
+    text-decoration: none;
+    color: white;
+    width: 30px;
+    height: 40px;
+    padding: 10px;
+    margin: 45px;
+}
+#fq{
+    color: white;
+}
+#gt{
+    padding-left: 400px;
+}
+.tituloco{
+    text-align: left;
+    color: rgb(52, 73, 30);
+    font-size: 240%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-bottom: 20px;
+    padding-left: 50px;
+}
