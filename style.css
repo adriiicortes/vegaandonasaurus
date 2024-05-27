@@ -22,6 +22,7 @@ nav li:hover {
 }
 body{
     background-color: rgb(161, 219, 196);
+    min-width: 300px:
 }
 .container{
     display: flex;
