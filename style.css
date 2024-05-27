@@ -1,6 +1,7 @@
 *{
     padding: 0;
     margin: 0;
+    min-width: 300px:
 }
 nav ul {
     background-color: rgb(5, 90, 78);
@@ -22,7 +23,6 @@ nav li:hover {
 }
 body{
     background-color: rgb(161, 219, 196);
-    min-width: 300px:
 }
 .container{
     display: flex;
